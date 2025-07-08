@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import './reset.scss';
+
+// Fonts
+$main-font: "IBM Plex Mono", monospace;
+$main-title: "Raleway", sans-serif;
+
+// Colors
+$main-bg: #080808;
+$text: #9C9C9C;
+$h1: #fff;
+
+$leftPixel: 120px;
+
+html,
+body {
+    font-family: $main-font;
+    background-color: $main-bg;
+    overflow-y: hidden;
+}
+
+.name {
+    margin-top: 211px;
+    margin-left: $leftPixel;
+    color: $h1;
+    font-size: 44px;
+    font-family: $main-title;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.aboutMe {
+    font-weight: 400;
+    margin-left: $leftPixel;
+    color: $text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    span{
+        font-weight: bold;
+
+        .line{
+            text-decoration: underline;
+            font-weight: 200;
+        }
+    }
+
+    >p{
+        margin-bottom: 15px;
+    }
+
+    span:last-child{
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+.photo{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url('../images/IMG_5137.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 70%;
+    top: 25%;
+}

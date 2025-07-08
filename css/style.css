@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+html,
+body {
+  font-family: "IBM Plex Mono", monospace;
+  background-color: #080808;
+  overflow-y: hidden;
+}
+
+.name {
+  margin-top: 211px;
+  margin-left: 120px;
+  color: #fff;
+  font-size: 44px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.aboutMe {
+  font-weight: 400;
+  margin-left: 120px;
+  color: #9C9C9C;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.aboutMe span {
+  font-weight: bold;
+}
+.aboutMe span .line {
+  text-decoration: underline;
+  font-weight: 200;
+}
+.aboutMe > p {
+  margin-bottom: 15px;
+}
+.aboutMe span:last-child {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.photo {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-image: url("../images/IMG_5137.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 70%;
+  top: 25%;
+}
